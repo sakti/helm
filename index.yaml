@@ -21,4 +21,16 @@ entries:
     urls:
     - https://github.com/sakti/helm/releases/download/podinfo-0.1.0/podinfo-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-06T05:17:02.457699376Z"
+  vault:
+  - apiVersion: v2
+    created: "2024-01-06T10:47:10.695787841Z"
+    dependencies:
+    - name: vault
+      repository: https://helm.releases.hashicorp.com
+      version: 0.27.0
+    digest: e770f3f3f000f6638d5f020fb32a6bdae2499489a4b3849e38acb36d40d77180
+    name: vault
+    urls:
+    - https://github.com/sakti/helm/releases/download/vault-0.1.0/vault-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-01-06T10:47:10.695802688Z"
