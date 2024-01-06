@@ -1,0 +1,11 @@
+vault:
+  global:
+    enable: true
+  server:
+    ha:
+      enabled: false
+      replicas: 3
+    authDelegator:
+      enabled: true
+  ui:
+    enabled: false
