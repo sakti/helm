@@ -1,0 +1,4 @@
+teleport-cluster:
+  clusterName: teleport-cluster.k8s.orb.local
+  proxyListenerMode: multiplex
+  acme: false
