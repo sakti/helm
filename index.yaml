@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  iggy:
+  - apiVersion: v2
+    appVersion: 0.1.7
+    created: "2024-01-07T11:03:41.706651982Z"
+    description: Iggy Message Streaming Platform
+    digest: 5fa3a174231d531d3cd7bc414aae5568bedfdd5cf56f45a46a6a69886791092f
+    name: iggy
+    type: application
+    urls:
+    - https://github.com/sakti/helm/releases/download/iggy-0.1.0/iggy-0.1.0.tgz
+    version: 0.1.0
   podinfo:
   - apiVersion: v2
     appVersion: 0.1.0
@@ -46,4 +57,4 @@ entries:
     urls:
     - https://github.com/sakti/helm/releases/download/vault-0.1.0/vault-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-07T09:24:24.673284342Z"
+generated: "2024-01-07T11:03:41.706659887Z"
