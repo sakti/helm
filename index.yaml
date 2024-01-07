@@ -21,6 +21,19 @@ entries:
     urls:
     - https://github.com/sakti/helm/releases/download/podinfo-0.1.0/podinfo-0.1.0.tgz
     version: 0.1.0
+  teleport:
+  - apiVersion: v2
+    appVersion: 14.3.0
+    created: "2024-01-07T09:24:24.673268442Z"
+    dependencies:
+    - name: teleport-cluster
+      repository: https://charts.releases.teleport.dev
+      version: 14.3.0
+    digest: 3c12139bbb7aa1943dc9b142bf2a5f3ab6951b86887f98a22886cf890681e8c9
+    name: teleport
+    urls:
+    - https://github.com/sakti/helm/releases/download/teleport-0.1.0/teleport-0.1.0.tgz
+    version: 0.1.0
   vault:
   - apiVersion: v2
     created: "2024-01-06T10:47:10.695787841Z"
@@ -33,4 +46,4 @@ entries:
     urls:
     - https://github.com/sakti/helm/releases/download/vault-0.1.0/vault-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-06T10:47:10.695802688Z"
+generated: "2024-01-07T09:24:24.673284342Z"
