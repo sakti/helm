@@ -4,6 +4,9 @@
 
 replicaCount: 1
 
+env:
+  MESSAGE: "hello from podinfo"
+
 image:
   repository: ghcr.io/sakti/podinfo
   pullPolicy: IfNotPresent
