@@ -14,6 +14,16 @@ entries:
   podinfo:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2024-03-11T10:29:27.455827908Z"
+    description: Experimental pod
+    digest: e375c6d94ee5eecbdc79ecd98b14b5c45eedb08efc52560f7a34d9987ebc4a26
+    name: podinfo
+    type: application
+    urls:
+    - https://github.com/sakti/helm/releases/download/podinfo-0.3.0/podinfo-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2024-02-18T04:45:58.685240315Z"
     description: Experimental pod
     digest: 7f75dc647cf0332c4b1d1bffc95d5b33a62b37440e1f3e7ca002af38de37f9f3
@@ -67,4 +77,4 @@ entries:
     urls:
     - https://github.com/sakti/helm/releases/download/vault-0.1.0/vault-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-18T04:45:58.685251576Z"
+generated: "2024-03-11T10:29:27.45584513Z"
