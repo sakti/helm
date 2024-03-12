@@ -33,20 +33,26 @@ spec:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          volumeMounts:
+            - name: data-volume
+              mountPath: /data
           ports:
             - name: http
-              containerPort: 80
+              containerPort: 6060
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /
+              path: /check/liveness
               port: http
           readinessProbe:
             httpGet:
-              path: /
+              path: /check/readiness
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+      volumes:
+        - name: data-volume
+          emptyDir: {}
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
