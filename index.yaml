@@ -77,4 +77,15 @@ entries:
     urls:
     - https://github.com/sakti/helm/releases/download/vault-0.1.0/vault-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-11T10:29:27.45584513Z"
+  ws:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-16T00:51:32.930897514Z"
+    description: ws
+    digest: 0a2733c0ce5ff3d91b7e597c73f0b3e86b890e6c8abbf1d12152b81b3ab6c255
+    name: ws
+    type: application
+    urls:
+    - https://github.com/sakti/helm/releases/download/ws-0.1.0/ws-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-16T00:51:32.93092741Z"
