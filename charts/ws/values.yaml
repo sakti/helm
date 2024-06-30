@@ -4,6 +4,9 @@
 
 replicaCount: 1
 
+env:
+  MESSAGE: "hello from ws"
+
 image:
   repository: ghcr.io/sakti/ws
   pullPolicy: IfNotPresent
