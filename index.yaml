@@ -80,6 +80,16 @@ entries:
   ws:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-06-30T06:38:24.297490764Z"
+    description: ws
+    digest: f4fa50841d11088e89352b5bf2c43d72c7b5f9d83a885a1d693a88694a8d5c5a
+    name: ws
+    type: application
+    urls:
+    - https://github.com/sakti/helm/releases/download/ws-0.2.0/ws-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-06-16T00:51:32.930897514Z"
     description: ws
     digest: 0a2733c0ce5ff3d91b7e597c73f0b3e86b890e6c8abbf1d12152b81b3ab6c255
@@ -88,4 +98,4 @@ entries:
     urls:
     - https://github.com/sakti/helm/releases/download/ws-0.1.0/ws-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-16T00:51:32.93092741Z"
+generated: "2024-06-30T06:38:24.29750467Z"
