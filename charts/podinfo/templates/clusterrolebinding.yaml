@@ -4,7 +4,7 @@ metadata:
   name: podinfo-global
 roleRef:
   kind: ClusterRole
-  name: podinfo-role
+  name: {{ include "podinfo.serviceAccountName" . }}-role
   apiGroup: rbac.authorization.k8s.io
 subjects:
   - kind: ServiceAccount
