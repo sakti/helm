@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  dufs:
+  - apiVersion: v2
+    appVersion: 0.42.0
+    created: "2024-10-05T07:26:32.073109964Z"
+    description: DUFS
+    digest: 85c35f493fe7066c130d46709111ea8831918aef95e6eaee8cd41d7d05271221
+    name: dufs
+    type: application
+    urls:
+    - https://github.com/sakti/helm/releases/download/dufs-0.1.0/dufs-0.1.0.tgz
+    version: 0.1.0
   iggy:
   - apiVersion: v2
     appVersion: 0.1.7
@@ -118,4 +129,4 @@ entries:
     urls:
     - https://github.com/sakti/helm/releases/download/ws-0.1.0/ws-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-01T01:39:42.54183455Z"
+generated: "2024-10-05T07:26:32.073132948Z"
